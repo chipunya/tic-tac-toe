@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: rgb(48, 59, 114);
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+  margin: 50px;
+}
+
+.cell {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x,
+.o {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(210, 194, 74);
+}
+.o {
+  color: rgb(230, 162, 222);
+}
+h1 {
+  margin: 100px 0 0;
+}
+h1,
+h3 {
+  font-size: 35px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 7px;
+}
